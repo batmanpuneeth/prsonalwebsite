@@ -1,0 +1,77 @@
+body{
+    margin:0;
+    padding-top: 500px; 
+    text-align: center;
+}
+.profile{
+    border-radius: 50%;
+}
+#welcome{
+    background:radial-gradient(rgb(43, 171, 213),rgb(224, 32, 7),rgb(3, 146, 3)) ;
+    position: absolute;
+    bottom: 0;
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+h1{
+    font-size: 40px;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 300;
+    color: cyan;
+}
+#name{
+    font-size: 50px;
+    font-family: "Cinzel Decorative", serif;
+    color: gold;
+}
+h2{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: "Bungee Spice", sans-serif;
+}
+#bio{
+    padding: 150px;
+    font-size: 20px;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width:70px;
+    margin: 8px auto;
+}
+#welcome 
+{
+z-index: 9;    
+}
+.menu  
+{
+position: fixed;
+background-color: white;
+width: 100%;
+margin-top: 0px;
+top: 0px;
+z-index: 10;
+}
+.links{
+display: inline;
+padding-left: 33px;
+padding-right: 25px;
+font-size: 20px;
+font-family: fantasy;
+}
+
+.links:hover{
+    font-size: 30px;
+    text-decoration: underline;
+}
+#WRITTINGS{
+    margin:20px;
+}
+
+#WRITTINGS a{
+    text-decoration:none;
+}
+.CONTACT_1{
+    display: inline;
+}
